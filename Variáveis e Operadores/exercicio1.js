@@ -7,10 +7,13 @@
 
 // Imprima no console o valor que será gasto para realizar esta viagem.
 
-let preco = 5; //o litro está x reais
-let gasto = 15; //x litros por km
-let distancia = 10; //x km
+let precoCombustivel = 5.7; //o litro está x reais
+let kmLitros = 10; //x km por litro
+let distanciaPercorrida = 150; //x km
 
-const solucao = distancia * gasto * preco; //fórmula para a solução
+const litrosConsumidos = distanciaPercorrida / kmLitros;
 
-console.log("Será gasto", solucao, "reais nessa viagem");
+const precoGasto = litrosConsumidos * precoCombustivel;
+
+console.log("Será gasto", precoGasto.toFixed(2), "reais nessa viagem");
+//.toFixed(x): esse x é a quantidade de números depois da vírgula.
