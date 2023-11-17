@@ -15,5 +15,5 @@ const litrosConsumidos = distanciaPercorrida / kmLitros;
 
 const precoGasto = litrosConsumidos * precoCombustivel;
 
-console.log("Será gasto", precoGasto.toFixed(2), "reais nessa viagem");
+console.log("Será gasto", precoGasto.toFixed(2), "reais nessa viagem.");
 //.toFixed(x): esse x é a quantidade de números depois da vírgula.
