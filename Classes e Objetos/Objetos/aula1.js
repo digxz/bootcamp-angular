@@ -10,3 +10,6 @@ var digs = {
 //Os valores são "diego" e 18
 
 console.log(digs);
+
+console.log(digs.nome);
+console.log(digs.idade);
