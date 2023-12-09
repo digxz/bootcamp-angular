@@ -13,7 +13,7 @@ class Pessoa {
 
   calcularSalario() {
     return this.salario / 22 / this.horasPorDia;
-  } //22 dias no mês
+  } // 22 dias no mês
 }
 
 const digs = new Pessoa("Diego", 950, 4);
