@@ -2,7 +2,7 @@
 
 //gets e print são funções auxiliares
 
-const conjuntoDeEntradas = [5, 50, 10, 98, 23];
+const conjuntoDeEntradas = [7, 50, 10, 98, 23, 88, 96, 99];
 let i = 0;
 
 function gets() {

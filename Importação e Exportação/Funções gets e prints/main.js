@@ -1,19 +1,13 @@
 const { gets, print } = require("./funcoesauxiliares");
 
-const numerosDaLista = [];
-
-for (let i = 0; i < 5; i++) {
-  const numeroSorteado = gets();
-  numerosDaLista.push(numeroSorteado);
-}
-
 let maiorValor = 0;
+const quantidadeDeAlunos = gets();
 
-for (let i = 0; i < numerosDaLista.length; i++) {
-  const numeroSorteado = numerosDaLista[i];
+for (let i = 0; i < quantidadeDeAlunos; i++) {
+  const numeroSorteado = gets();
   if (numeroSorteado > maiorValor) {
     maiorValor = numeroSorteado;
   }
 }
 
-console.log(maiorValor);
+print(maiorValor);
